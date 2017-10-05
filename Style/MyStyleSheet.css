@@ -1,0 +1,21 @@
+﻿body {
+	background-color: cornflowerblue;
+}
+
+p { font: bold 12px times new roman;
+}
+
+th {
+	font: bold 12px times new roman;
+	background: black;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background: blue;
+}
+
+tr:nth-child(odd) {
+	background: white;
+}
+

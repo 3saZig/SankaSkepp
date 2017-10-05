@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Förnamn</th><th>Efternamn</th><th>Personnummer</th>
+			</tr>
+		</thead>
+		<tbody id="tablebody">
+			<tr>
+				<td>Anna</td><td>Svensson</td><td>7020070940</td>
+			</tr>
+			<tr>
+				<td>Joanna</td><td>Johansson</td><td>8907061267</td>
+			</tr>
+			<tr>
+				<td>Björn</td><td>Gustavsson</td><td>7012040976</td>
+		</tbody>
+	</table>
+
+	<table>
+		<tbody>
+			<tr>
+				<td>
+					Förnamn
+					<input type="text" id="fornamn" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Efternamn
+					<input type="text" id="efternamn" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Personnummer
+					<input type="text" id="personnummer" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" value="Skicka in" onclick="Funktionen()" />
+				</td>
+				
+				<td>
+					<input type="button" value="Sortera på förnamn" onclick="SorteraFN()" />
+				</td>
+
+				<td>
+					<input type="button" value="Sortera på efternamn" onclick="SorteraEN()" />
+				</td>
+			</tr>
+
+		</tbody>
+	</table>
+	<script src="JavaScript/JavaScript.js"></script>
+</body>
+</html>

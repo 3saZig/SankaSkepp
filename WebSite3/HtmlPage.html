@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>This is a Table</title>
+</head>
+<body>
+	<h2>Kontaktlista</h2>
+	<div class="rTable" id="tabellen">
+		<div class="rTableHead" id="tablebody">
+			<div class="rTableRow">
+				<div class="rTableHead"><strong>Namn</strong></div>
+				<div class="rTableHead"><strong>Efternamn</strong></div>
+				<div class="rTableHead"><strong>Personnummer</strong></div>
+				<div class="rTableHead"><strong>Telephone</strong></div>
+				<div class="rTableHead"><strong>Kön</strong></div>
+			</div>
+			<div class="rTableRow">
+			<div class="rTableCell">Johan</div>
+			<div class="rTableCell">Johansson</div>
+			<div class="rTableCell" id="personnummer">8007061235</div>
+			<div class="rTableCell">1234567</div>
+			<div class="rTableCell" id="kon">Kön</div>
+
+			</div>
+			<div class="rTableRow">
+			<div class="rTableCell">Anne</div>
+			<div class="rTableCell">Konradsson</div>
+			<div class="rTableCell" id="personnummer">7807071245</div>
+			<div class="rTableCell">456789</div>
+			<div class="rTableCell" id="kon">Kön</div>
+
+			</div>
+			<div class="rTableRow">
+			<div class="rTableCell">Olga</div>
+			<div class="rTableCell">Isaksson</div>
+			<div class="rTableCell" id="personnummer">6509021265</div>
+			<div class="rTableCell">2345678</div>
+			<div class="rTableCell" id="kon">Kön</div>
+
+			</div>
+			<div class="rTableRow">
+			<div class="rTableCell">Håkan</div>
+			<div class="rTableCell">Johansson</div>
+			<div class="rTableCell" id="personnummer">6209021265</div>
+			<div class="rTableCell">4567890</div>
+			<div class="rTableCell" id="kon">Kön</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="rTable">
+		<div class="rTableRow">
+			<div class="rTableRow"><strong>Lägg till kontakt</strong></div>
+			<div class="rTableRow"><p>Förnamn</p><input type="text" id="fornamn" /></div>
+			<div class="rTableRow"><p>Efternamn</p><input type="text" id="efternamn" /></div>
+			<div class="rTableRow"><p>Personnummer</p><input type="text" id="telefonnummer" /></div>
+			<div class="rTableRow"><p>Telefonnummer</p><input type="text" id="personnummer" /></div>
+
+			<div class="rTableRow"><input type="button" value="skicka in" id="knappSkickaIn" /></div>
+			<div class="rTableRow"><input type="button" value="sortera" id="sorteringsKnapp" /></div>
+		</div>
+	</div>
+
+
+
+	<script src="Scripts/jquery-3.2.1.js"></script>
+	<script src="JS JQ/JavaScript.js"></script>
+	<link href="Style/StyleSheet.css" rel="stylesheet" />
+</body>
+</html>
