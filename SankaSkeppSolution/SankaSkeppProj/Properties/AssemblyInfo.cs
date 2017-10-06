@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SankaSkepp")]
+[assembly: AssemblyTitle("SankaSkeppProj")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SankaSkepp")]
+[assembly: AssemblyProduct("SankaSkeppProj")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("eb5c5904-9d59-44b1-88ce-2156798eb0b9")]
+[assembly: Guid("00f2b37d-058c-4745-bbd9-c1d9e29340f4")]
 
 // Version information for an assembly consists of the following four values:
 //
